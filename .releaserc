@@ -9,7 +9,9 @@
         {"type": "style", "release": "patch"}
       ]
     }],
-    "@semantic-release/release-notes-generator",
+    ["semantic-release/release-notes-generator", {
+      "preset": "angular"
+    }],
     "@semantic-release/npm",
     [
       "@semantic-release/git", {
