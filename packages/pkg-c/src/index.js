@@ -1,6 +1,6 @@
-const { computeConsoleTable } = require("@prbpad/pkg-b");
+const { computeConsoleTableV2 } = require("@prbpad/pkg-b");
 
-const table = computeConsoleTable();
+const table = computeConsoleTableV2();
 
 // Print table in console
 console.log(table);
