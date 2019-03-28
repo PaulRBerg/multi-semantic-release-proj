@@ -3,8 +3,8 @@
   "version": "0.0.0-semantically-released",
   "author": "Paul Berg (https://paulrberg.com)",
   "devDependencies": {
-    "@prbpad/pkg-a": "*",
-    "@prbpad/pkg-b": "*",
+    "@prbpad/pkg-a": "file:../pkg-a",
+    "@prbpad/pkg-b": "file:../pkg-b",
     "fixpack": "2.3.1"
   },
   "files": [

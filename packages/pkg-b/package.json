@@ -6,7 +6,7 @@
     "table": "5.2.3"
   },
   "devDependencies": {
-    "@prbpad/pkg-a": "*",
+    "@prbpad/pkg-a": "file:../pkg-a",
     "chai": "4.2.0",
     "fixpack": "2.3.1",
     "mocha": "6.0.2"
