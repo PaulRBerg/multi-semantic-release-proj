@@ -1,0 +1,25 @@
+{
+  "name": "@prbpad/pkg-c",
+  "version": "0.0.0-semantically-released",
+  "author": "Paul Berg (https://paulrberg.com)",
+  "devDependencies": {
+    "@prbpad/pkg-a": "*",
+    "@prbpad/pkg-b": "*",
+    "fixpack": "2.3.1"
+  },
+  "files": [
+    "/src"
+  ],
+  "keywords": [
+    "automation",
+    "monorepo",
+    "multi-semantic-release",
+    "semantic-release",
+    "semver"
+  ],
+  "license": "MIT",
+  "main": "./src",
+  "publishConfig": {
+    "access": "public"
+  }
+}

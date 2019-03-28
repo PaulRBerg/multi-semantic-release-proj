@@ -849,6 +849,13 @@
   resolved "https://registry.yarnpkg.com/@prbpad/pkg-a/-/pkg-a-1.1.0.tgz#bd9413ad877afe71d82b9131f3982913da66375d"
   integrity sha512-8OMRT6aSYpokK5+fBWzvonZ79VtaX68z75LC0yLQAoYNo4+x7nqPDAdQccFSw9zB7PVuqoy/RtVmKVbTp0Hu3A==
 
+"@prbpad/pkg-b@*":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@prbpad/pkg-b/-/pkg-b-1.0.0.tgz#b1205c2e77aa961ee7dcea2e4bf215a175d24100"
+  integrity sha512-bWQX72GZcSDZZ2boVwOU2E7zE6kfB9Dr141qj34c6sElQgXIMLBY8nwlCX7YZ9dbUR8SSK+kZMejzgpVbbL7KQ==
+  dependencies:
+    table "5.2.3"
+
 "@semantic-release/commit-analyzer@^6.1.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-6.1.0.tgz#32bbe3c23da86e23edf072fbb276fa2f383fcb17"
