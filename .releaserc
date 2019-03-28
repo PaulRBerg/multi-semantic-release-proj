@@ -1,23 +1,22 @@
 {
-  "branch": "master",
-  "plugins": [
-    ["@semantic-release/commit-analyzer", {
-      "preset": "angular",
-      "releaseRules": [
-        {"type": "docs", "release": "patch"},
-        {"type": "refactor", "release": "patch"},
-        {"type": "style", "release": "patch"}
-      ]
-    }],
-    ["@semantic-release/release-notes-generator", {
-      "preset": "angular"
-    }],
-    "@semantic-release/npm",
-    [
-      "@semantic-release/git", {
-        "assets": false
-      }
-    ],
-    "@semantic-release/github"
-  ]
+    "branch": "master",
+    "plugins": [
+        ["@semantic-release/commit-analyzer", {
+              "preset": "angular",
+              "releaseRules": [
+                  {
+                      "type": "docs",
+                      "release": "patch"
+                  }
+              ]
+        }],
+        ["@semantic-release/release-notes-generator", {
+                "preset": "angular"
+        }],
+        ["@semantic-release/npm"],
+        ["@semantic-release/git", {
+                "assets": false
+        }],
+        "@semantic-release/github"
+    ]
 }
