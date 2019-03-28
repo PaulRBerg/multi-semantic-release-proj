@@ -1,3 +1,3 @@
 # Pkg C
 
-Testing out multi-semantic-release
+Testing out multi-semantic-release.
