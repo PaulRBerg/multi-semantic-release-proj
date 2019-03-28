@@ -6,15 +6,15 @@
   "devDependencies": {
     "fixpack": "2.3.1"
   },
+  "files": [
+    "/src"
+  ],
   "keywords": [
     "automation",
     "monorepo",
     "multi-semantic-release",
     "semantic-release",
     "semver"
-  ],
-  "files": [
-    "/src"
   ],
   "license": "MIT",
   "main": "./src",
