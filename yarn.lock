@@ -766,14 +766,6 @@
     universal-user-agent "^2.0.0"
     url-template "^2.0.8"
 
-"@prbpad/pkg-a@file:packages/pkg-a":
-  version "0.0.0-semantically-released"
-
-"@prbpad/pkg-b@file:packages/pkg-b":
-  version "0.0.0-semantically-released"
-  dependencies:
-    table "5.2.3"
-
 "@semantic-release/commit-analyzer@^6.1.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-6.1.0.tgz#32bbe3c23da86e23edf072fbb276fa2f383fcb17"

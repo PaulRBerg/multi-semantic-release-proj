@@ -3,8 +3,8 @@
   "version": "0.0.0-semantically-released",
   "author": "Paul Berg (https://paulrberg.com)",
   "devDependencies": {
-    "@prbpad/pkg-a": "file:../pkg-a",
-    "@prbpad/pkg-b": "file:../pkg-b",
+    "@prbpad/pkg-a": "0.0.0-semantically-released",
+    "@prbpad/pkg-b": "0.0.0-semantically-released",
     "chai": "4.2.0",
     "fixpack": "2.3.1",
     "mocha": "6.0.2"
