@@ -21,13 +21,6 @@
     "multi-semantic-release": "1.1.0",
     "semantic-release": "^15.12.4"
   },
-  "keywords": [
-    "automation",
-    "monorepo",
-    "multi-semantic-release",
-    "semantic-release",
-    "semver"
-  ],
   "license": "MIT",
   "private": true,
   "scripts": {
