@@ -1,0 +1,15 @@
+{
+  "branch": "master",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/npm",
+    [
+      "@semantic-release/git", {
+        "assets": false
+      }
+    ],
+    "@semantic-release/github"
+  ],
+  "preset": "angular"
+}

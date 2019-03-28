@@ -1,0 +1,6 @@
+# files
+yarn-error.log
+
+# folders
+node_modules/
+tmp/

@@ -1,0 +1,17 @@
+{
+  "name": "@prbpad/pkg-a",
+  "version": "0.0.0-semantically-released",
+  "author": "Paul Berg (https://paulrberg.com)",
+  "dependencies": {},
+  "devDependencies": {
+    "fixpack": "2.3.1"
+  },
+  "files": [
+    "/src"
+  ],
+  "license": "MIT",
+  "main": "./src",
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,34 @@
+version: 2
+jobs:
+    build:
+        working_directory: ~/repo
+        docker:
+            - image: circleci/node:10.15.3
+        steps:
+            - checkout
+            - run: sudo npm install -g npm
+            - run: sudo npm install yarn@1.15.2 -g
+            - run: yarn install
+            - save_cache:
+                key: repo-{{ .Environment.CIRCLE_SHA1 }}
+                paths:
+                    - ~/repo
+    release:
+        working_directory: ~/repo
+        docker:
+            - image: circleci/node:10.15.3
+        steps:
+            - restore_cache:
+                keys:
+                    - repo-{{ .Environment.CIRCLE_SHA1 }}
+            - run: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+            - run: yarn semantic-release
+
+workflows:
+    version: 2
+    build_and_release:
+        jobs:
+            - build
+            - release:
+                  requires:
+                      - build
