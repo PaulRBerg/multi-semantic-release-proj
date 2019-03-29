@@ -1,4 +1,4 @@
-const multirelease = require("multi-semantic-release");
+const multirelease = require("./packages/monorepo-scripts/publish/multiSemanticRelease");
 
 // prettier-ignore
 multirelease([
