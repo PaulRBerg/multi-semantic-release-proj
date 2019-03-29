@@ -25,7 +25,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "cm": "git-cz",
+    "commit": "git-cz",
     "fixpack": "lerna exec --parallel -- yarn fixpack; fixpack",
     "prettier": "prettier --config .prettierrc --write '**/*.{js,jsx,json,md}'",
     "remove_node_modules": "lerna clean --yes; rm -rf node_modules",
